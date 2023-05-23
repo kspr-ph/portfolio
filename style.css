@@ -12,7 +12,7 @@
 
     }
     header{
-
+        color: #a73204;
         font-family: 'Kanit', sans-serif;
         position: fixed;
         width: 100%;
@@ -23,7 +23,7 @@
         background-color: rgb(255, 255, 255);
         padding-top: 20px;
         padding-bottom: 20px;
-        border-bottom: 5px solid rgba(233, 11, 11, 0.322);
+        border-bottom: 5px solid rgba(233, 11, 11, 0.267);
         border-radius: 3px;
     }
     .txt{
@@ -59,7 +59,7 @@
     }
     main h1{
         margin-top: 90px;
-    font-weight: 400;
+        font-weight: 400;
     }
     main p{
         font-size: 20px;
@@ -127,6 +127,59 @@
             text-align: center;
             font-weight: 400;
         }
+        .div-parceiros{
+            background-color: rgba(255, 255, 255, 0.096);
+            color: white;
+            margin: 0 auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            border: 1px solid white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            font-weight: 400;
+            max-width: 1000px;
+            place-items: center;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 30px;
+        }
+        .parceiros h1{
+            text-align: center;
+            color: white;
+            font-weight: 400;
+            font-size: 25px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .ctl{
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            font-weight: 400;
+            max-width: 1000px;
+            place-items: center;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 10px;
+        }
+        .ctl img{
+            width: 250px;
+        }
+        .ss{
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            font-weight: 400;
+            max-width: 1000px;
+            place-items: center;
+            align-items: center;
+            justify-items: center;
+        }
+        .ss img{
+            width: 250px;
+        }
         footer{
             background-color: white;
         
@@ -151,13 +204,13 @@
         font-family: 'Kanit', sans-serif;
     }
     header{
-
+        color: #ff6600;
         font-family: 'Kanit', sans-serif;
         position: fixed;
         width: 100%;
         font-family: 'Kanit', sans-serif;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bolder;
         background-color: rgb(255, 255, 255);
         padding-top: 20px;
@@ -276,6 +329,57 @@
             place-items: center;
             align-items: center;
             justify-items: center;
+        }
+        .div-parceiros{
+            background-color: rgba(255, 255, 255, 0.096);
+            color: white;
+            margin: 0 auto;
+            border: 1px solid white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            font-weight: 400;
+            max-width: 1000px;
+            place-items: center;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 30px;
+        }
+        .parceiros h1{
+            text-align: center;
+            color: white;
+            font-weight: 400;
+            font-size: 25px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .ctl{
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            font-weight: 400;
+            max-width: 1000px;
+            place-items: center;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 10px;
+        }
+        .ctl img{
+            width: 250px;
+        }
+        .ss{
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            font-weight: 400;
+            max-width: 1000px;
+            place-items: center;
+            align-items: center;
+            justify-items: center;
+        }
+        .ss img{
+            width: 250px;
         }
         footer{
             background-color: white;
